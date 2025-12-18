@@ -1,0 +1,69 @@
+/* Reset simple */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f6f8fa;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* centra horizontal */
+    align-items: center;
+    /* centra vertical */
+}
+
+/* Contenedores */
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* Tarjetas modernas */
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 30px;
+    /* más espacio interno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    /* centra texto y elementos */
+}
+
+.card div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Botón principal */
+.btn {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #2563eb;
+}
+
+/* Inputs */
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
